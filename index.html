@@ -5,12 +5,33 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script type="module" src="/src/main.ts" defer></script>
-    <title>Vite + TS</title>
+    <title>Credit Card</title>
   </head>
 
   <body>
+    <!-- Credit Card -->
     <div id="app">
-
+      <div class="creditCard">
+        <div class="creditCard__top">
+          <div class="creditCard__top__chip">
+            <img src="./src/images/crediiCardChip.png" alt="credit-card-chip">
+          </div>
+          <div class="creditCard__top__brand">
+            <img src="./src/images/creditCardBrand.png" alt="credit-card-brand">
+          </div>
+        </div>
+        <div class="creditCard__number">#### #### #### ####</div>
+        <div class="creditCard__bottom">
+          <div class="creditCard__bottom__holder">
+            <p class="little__title">Card Holder</p>
+            <p>FULL NAME</p>
+          </div>
+          <div class="creditCard__bottom__date">
+            <p class="little__title">Expires</p>
+            <p>MM/YY</p>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
